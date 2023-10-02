@@ -1,0 +1,5 @@
+What is java?-A
+Why we use dynamic array?-B
+How many access modifier do you know?-C
+What is final keyword?-D
+How many OOP principles do you know?-E
