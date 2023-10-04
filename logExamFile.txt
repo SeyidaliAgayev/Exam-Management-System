@@ -1,0 +1,6 @@
+Person with username: Student
+Exam Point: 2
+Person with username: Student
+Exam Point: 0
+Person with username: Student
+Exam Point: 0

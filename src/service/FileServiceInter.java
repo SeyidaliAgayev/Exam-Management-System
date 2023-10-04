@@ -1,8 +1,11 @@
 package service;
 
+import model.Questions;
+
 import java.util.List;
 
 public interface FileServiceInter {
-    void writeQuestionAndAnswersToFile(String questionAndAnswer);
-    List<String> readQuestionsAndAnswersFromFile();
+    void writeQuestionAndAnswersToFile(Questions questions);
+    List<Questions> readQuestionsAndAnswersFromFile();
+    void writeLogToFile(String username, int examPoint);
 }

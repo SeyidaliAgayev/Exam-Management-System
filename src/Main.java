@@ -1,5 +1,9 @@
+import exam.impl.ExamServiceImpl;
+import exam.impl.ManagementServiceImpl;
+import model.Questions;
 import service.impl.FileServiceImpl;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
@@ -19,8 +23,12 @@ Tələblər :
 
 əlavə hissələrə dərsdə yazdıqca baxacağıq əlavə methodlarda lazım olacaqdır
          */
-        FileServiceImpl fileService = new FileServiceImpl();
-        fileService.readQuestionsAndAnswersFromFile();
-
+        ManagementServiceImpl managementService = new ManagementServiceImpl();
+        managementService.examManagement();
+//        FileServiceImpl fileService = new FileServiceImpl();
+//        List<Questions> questions = fileService.readQuestionsAndAnswersFromFile();
+//        for (Questions question : questions) {
+//            System.out.println(question);
+//        }
     }
 }
